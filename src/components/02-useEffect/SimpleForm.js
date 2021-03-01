@@ -60,7 +60,7 @@ export const SimpleForm = () => {
                     onChange={handleInputChange}
                 />
 
-                {(name) && <Message />}
+                {(name === '123') && <Message />}
             </div>
         </>
     )
